@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Summoner's Rift! </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg sticky-navbar">
+    <div class="container align-items-center">
+      <a class="navbar-brand special-font-header brand-size text-white  fst-italic ms-1" href="#">LEAGUE OF LEGENDS</a>
+      <button class="navbar-toggler text-white text-center border border-light " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span id="menu-toggler" class="nav-item">Menu</span><i class="fa-solid fa-caret-down ps-2 "></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item me-2">
+            <a class="nav-link active text-white" aria-current="page" href="#features">Oyuna Genel Bakış</a>
+          </li>
+          <li class="nav-item me-2">
+            <a class="nav-link text-white" href="#">İndir</a>
+          </li>
+          <li class="nav-item me-2" id="nav-item-3 ">
+            <a class="nav-link bg-primary rounded-pill text-white   " href="#" data-bs-toggle="modal"  data-bs-target="#staticBackdrop">Geri Bildirim</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-6" id="staticBackdropLabel">Geri Bildirim</h1>
+        <img class="ms-3" src="assets/img/74f09240c5a0dfce67f3cf2e9611ee1a9cfb0b1e-736x500.webp" alt="" style="width: 50px;">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="https://formsubmit.co/rhymeh317@gmail.com" method="POST">
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="fullname" name="fullName" required >
+          <label for="fullname">İsim Soyisim</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="email" name="e-mail" required>
+          <label for="email ">Email Adresiniz</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="tel" class="form-control" id="phoneNo" name="telNo" >
+          <label for="phoneNo ">Telefon numaranız</label>
+        </div>
+        <div class="form-floating mb-3">
+          <textarea class="form-control" id="floatingTextarea" style="height: 140px;" name="message"></textarea>
+          <label for="floatingTextarea">Eklemek istedikleriniz..</label>
+        </div>
+       <div class="d-grid">
+        <button type="submit" class="btn btn-primary rounded-pill">Gönder</button>
+       </div>
+
+            <!-- hiddens -->
+            <input type="hidden" name="_subject" value="Müşteri iletişim formu!">
+            <input type="hidden" name="_autoresponse" value="Hey dostum Merhaba! sanırım formumu doldurdun sana en müsait olduğum zamanda dönücem!">
+            <input type="hidden" name="_template" value="box">
+            <input type="hidden" name="_captcha" value="true">
+        </form>
+      </div>
+
+      <div class="modal-footer align-items-center">
+        <p>Hasan Bayraktar© 2024 </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="main-container py-5 ">
+  <div class="container  mt-5 ">
+    <div class="d-lg-flex flex-row justify-content-center align-items-center">
+      <!-- Büyük ekranlarda (lg ve üstü) içerikleri yatayda ve ortalı hizalayan flex container -->
+      
+      <div class="d-lg-flex flex-column">
+        <!-- Büyük ekranlarda dikeyde hizalanan bir flexbox column -->
+        <h1 class="bebas-neue-regular display-3  mt-5 text-center text-white">HAYDİ SİHİRDAR NE BEKLİYORSUN..</h1>
+        <!-- Başlık ve margin-top ile yukarıdan boşluk-->
+        
+        <p class="text-center text-white">LEAGUE OF LEGENDS ARTIK MOBİL CİHAZLARDA.</p>
+        
+        <div class=" d-flex justify-content-center mb-5">
+          <!-- Ortalanmış ve siyah kenarlıklı bir div, içerideki iki  -->
+          <a href="https://apps.apple.com/tr/app/league-of-legends-wild-rift/id1480616990?l=tr" target="_blank"><img src="assets/img/appstore.svg" alt="appstore" style="width: 130px;"></a>
+          <!-- App Store logosu, genişlik 130px olarak ayarlandı -->
+          <a href="https://play.google.com/store/search?q=wild%20rift&c=apps&gl=TR" target="_blank"><img src="assets/img/gooogleplay.svg" alt="gooogleplay" style="width: 140px;"></a>
+          <!-- Google Play logosu, genişlik 140px olarak ayarlandı -->
+        </div>
+      </div>
+      
+      <div class="col-6 offset-3  col-lg-3  offset-lg-1 d-flex justify-content-center position-relative">
+        <!-- Küçük ekranlarda tam genişlikte (col-12), büyük ekranlarda 3 birim genişlikte (col-lg-3) bir resim konteyneri, bir kenar boşluğu ile  -->
+        
+        <img class="img-fluid" src="assets/img/gamelast.png" alt="game-trial" >
+        <img id="gradient-circle" src="assets/img/gradient.png" alt="">
+        <img class="display-item display-item-start" src="assets/img/Ekran görüntüsü 2024-10-14 201752-Photoroom.png" alt="">
+        <img class="display-item display-item-bottom" src="assets/img/little circle.png" alt="">
+        <!-- Mobil oyun tanıtım resmi, esnek ve tam genişlikte  -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Slogan kısmı -->
+<div class="slogan-container  py-4">
+  <div class="container px-5  text-center col-xl-8 mt-3">
+    <h1 class="text-gold display-5 fw-bold bebas-neue-regular fst-italic text-bordered">Arkadaşlarınla bir takım kur ve becerilerini bu 5'e 5 MOBA oyununda test et.
+      </h1>
+    <img id="wildrift-brand" src="assets/img/74f09240c5a0dfce67f3cf2e9611ee1a9cfb0b1e-736x500.webp" alt="">
+
+  </div>
+</div>
+
+<!-- Features section -->
+<div  class="features-container my-5">
+    <div  id="features" class="container py-5">
+      <div class="d-lg-flex justify-content-center  my-5">
+        <div class="col-6 offset-3  col-lg-3  offset-lg-1 d-flex justify-content-center position-relative order-2   ">
+          <!-- Küçük ekranlarda tam genişlikte (col-12), büyük ekranlarda 3 birim genişlikte (col-lg-3) bir resim konteyneri, bir kenar boşluğu ile  -->
+          
+          <img class="img-fluid" src="assets/img/gamelast.png" alt="game-trial" >
+          <img id="gradient-circle" src="assets/img/gradient.png" alt="" style="left: -100px;;">
+          <img class="display-item display-item-bottom" src="assets/img/Ekran görüntüsü 2024-10-14 201752-Photoroom.png" alt="">
+          <img class="display-item display-item-start" src="assets/img/little circle.png" alt="">
+          <!-- Mobil oyun tanıtım resmi, esnek ve tam genişlikte  -->
+        </div>
+        <div  class="col-xl-8 order-1 order-lg-2 mt-5">
+          <div class="row  text-center">
+            <div class="col-12 col-md-6 ">
+              <i class="fa-solid fa-mobile-button icons-gradient mb-4"></i> 
+              <h4 class=" bebas-neue-regular ">Mobil Uyumluluk</h4>  
+              <p>Wild Rift, mobil cihazlar için optimize edilmiş, hızlı ve akıcı bir MOBA deneyimi sunar. Dokunmatik kontroller ile kolayca hareket edip yeteneklerinizi kullanabilirsiniz.</p>
+            </div>
+            <div class="col-12 col-md-6">
+              <i class="fa-solid fa-gamepad icons-gradient mb-4"></i>
+              <h4 class="bebas-neue-regular le">Kolay Oyun Kontrolleri</h4>  
+              <p>Oyun, mobil platformlara özel geliştirilen sezgisel kontroller ile donatılmıştır. Karakterinizi ve yeteneklerinizi kolayca yönetebilir, takım oyununda fark yaratabilirsiniz.</p>
+            </div>
+            <div class="col-12 col-md-6">
+              <i class="fa-solid fa-trophy icons-gradient mb-4"></i> 
+              <h4 class="bebas-neue-regular le">2021 Game Awards'ta "En İyi Mobil Oyun" ödülü</h4>  
+              <p>League of Legends: Wild Rift, 2021 Oyun Ödülleri'nde "en iyi mobil" oyun kategorisinde ödül kazanarak büyük bir başarı elde etti. </p>
+            </div>
+            <div class="col-12 col-md-6">
+              <i class="fa-solid fa-wand-sparkles icons-gradient mb-4"></i>
+              <h4 class="bebas-neue-regular le">Gelişmiş Hile Tespit Algoritmaları</h4>  
+            <p>Oyuncu davranışlarını analiz ederek olağan dışı aktiviteleri belirler ve şüpheli hesapları araştırır.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="paragraph-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-5 mt-5">
+        <h1 class=" display-3 bebas-neue-regular letter-spacing mt-5">REKABET "ARKADAŞLARLA" GÜZEL</h1>
+        <p class="text-white">Wild Rift, oyuncuların arkadaşlarıyla birlikte rekabet etmesini sağlayarak sosyal etkileşimi ön plana çıkarıyor. 5'e 5 MOBA formatında takımlar oluşturarak, oyuncular stratejilerini birlikte geliştirme ve oyun içinde eş zamanlı olarak karar verme fırsatına sahip oluyor. Arkadaşlarla oynanan oyunlar, sadece rekabetin değil, aynı zamanda eğlencenin de doruk noktaya ulaştığı anları yaratıyor. Eşit seviyedeki oyuncularla yapılan maçlar, takım ruhunu güçlendirirken, zaferin tadını birlikte çıkarmak da oyunun keyfini artırıyor. Wild Rift, dostluk bağlarını pekiştirirken, heyecan dolu anlar ve unutulmaz anekdotlar yaratma imkanı sunuyor.</p>
+      </div>
+      <div class="col-12 col-lg-6 ms-auto p-5"  >
+        <img class="img-fluid rounded-circle" src="assets/img/circle-wr.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="video-section d-flex justify-content-center ">
+      <div id="video-wrapper" class="position-relative"> 
+        <video id="background-video" autoplay muted loop>
+          <source src="assets/video/İsimsiz video ‐ Clipchamp ile yapıldı.mp4" type="video/mp4">
+        </video>
+        <img src="assets/img/1920x1080-black-solid-color-background.jpg" alt="" id="opacity-checker">
+      </div>
+    <div id="video-paragraph" class="container position-absolute text-white py-5 ">
+      <h2 class="display-2 mt-5 pt-5 bebas-neue-regular">Beklemeyi bırak artık.</h2>
+      <h2 class="display-2 bebas-neue-regular">Aramıza katıl!</h2>
+      <button type="button" class="col-3 rounded-pill btn btn-outline-light">Resmi sunucumuza katılmak için tıkla</button>
+
+    </div>
+</div>
+
+<div class="footer-container">
+  <div class="container">
+      <div class="row">
+        <div class="col text-center bebas-neue-regular letter-spacing  ">
+          <hr class="border border-dark border-2">
+            <h1>HADİ HEMEN İNDİR</h1>
+            <H1>SIRALAMADA GÜCÜNÜ GÖSTER</H1>
+            <div class=" d-flex justify-content-center mb-5">
+              <!-- Ortalanmış ve siyah kenarlıklı bir div, içerideki iki  -->
+              <a href="https://apps.apple.com/tr/app/league-of-legends-wild-rift/id1480616990?l=tr" target="_blank"><img src="assets/img/appstore.svg" alt="appstore" style="width: 130px;"></a>
+              <!-- App Store logosu, genişlik 130px olarak ayarlandı -->
+              <a href="https://play.google.com/store/search?q=wild%20rift&c=apps&gl=TR" target="_blank"><img src="assets/img/gooogleplay.svg" alt="gooogleplay" style="width: 140px;"></a>
+              <!-- Google Play logosu, genişlik 140px olarak ayarlandı -->
+            </div>
+            <hr class="border border-dark border-2">
+        </div>
+
+      </div>
+  </div>
+</div>
+
+<div class="copyright-container">
+  <div class="container text-white py-1 align-items-center text-center">
+    <p>Hasan Bayraktar 2024 ©</p>
+  </div>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

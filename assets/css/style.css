@@ -1,0 +1,182 @@
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('/assets/fonts/bebasNeue/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body{
+    box-sizing: border-box;
+    overflow-x: hidden
+}
+@media (min-width:320px) {
+   #menu-toggler{font-size: 70%;} 
+}
+*{
+    box-sizing: border-box;
+}
+.navbar-toggler{
+    align-items:center !important;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.brand-size{
+    font-size: 20px;
+    font-family:fantasy;
+    letter-spacing: 3px;
+
+}
+.sticky-navbar{
+    background: linear-gradient(to left, #053e6d 0%, #47348f 80%) !important;
+    position: sticky !important;
+    top: 0px;
+    z-index: 500 !important;
+}
+.nav-item a{
+     display: inline-block; /* Sadece yazı kadar genişlemesini sağlar */
+     padding-inline: 5px;
+}
+.modal-header{
+    background: #FFA17F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#81dbfe   0%, #0974F1 90%);/* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#81dbfe 0%, #0974F1 90%);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+.main-container{
+    background-image: url('/assets/img/yonebanner.jpg');
+    background-size: cover; /* Resmi div'e orantılı şekilde yayar */
+    background-position: center; /* Resmi div'in ortasına hizalar */
+    background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+    height: 100vh; /* Div yüksekliği, ekranın tamamını kaplar */
+    width: 100%; /* Div genişliği, ekranın tamamını kaplar */
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .black-border{
+    border: black ,solid ,2px;;
+}
+
+
+
+.display-item-start{
+        right:-15px ; 
+        width: 30px;
+        height: auto;
+}
+.display-item-bottom{
+    left: -15px ; 
+    width: 30px;
+    height: auto;
+    align-self: self-end;
+}
+@media (min-width:576px) {
+    
+ #gradient-circle {
+    z-index: -1;
+    position: absolute;
+    align-self: center;
+    border-radius: 100%;
+    width: 300px ;
+    height: auto;
+    display: inline-flex;}
+
+    .display-item{
+        z-index: -1;
+        position: absolute;
+        display: inline-flex;
+    }
+    
+
+}
+
+@media (max-width:576px) {
+    
+ #gradient-circle {
+    display: none;}
+
+.display-item{
+        display: none;
+    }
+    
+}
+.slogan-container{
+    background: linear-gradient(to right,#81dbfe 0%, #0974F1 90%);
+}
+.text-gold{
+    color: #c79a3c;
+    
+}
+#wildrift-brand{
+    width: 200px !important;
+}
+.icons-gradient{
+    font-size: 50px;
+    background: linear-gradient(45deg,#c79a3c 20%,#01dbff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.letter-spacing{
+    letter-spacing: 5px;
+}
+.paragraph-section{
+    background-color: rgba(143, 120, 120, 0.6);
+}
+.video-section{
+    position: relative;
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -2;
+}
+#opacity-checker{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 50%;
+}
+#video-wrapper{
+    z-index: -3 !important;
+}
+#video-paragraph{
+    z-index: 1;
+    
+}
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+#video-paragraph > p{
+    transform: translate(50%);
+}
+.footer-container{
+    margin-top: -10px;
+    background: linear-gradient(45deg,#c79a3c 20%,#01dbff);
+}
+.copyright-container{
+    background-color: rgba(0, 0, 0, 0.8);
+}
