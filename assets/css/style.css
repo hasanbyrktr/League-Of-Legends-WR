@@ -46,14 +46,7 @@ body{
 
     
 }
-.main-container{
-    background-image: url('/assets/img/yonebanner.jpg');
-    background-size: cover; /* Resmi div'e orantılı şekilde yayar */
-    background-position: center; /* Resmi div'in ortasına hizalar */
-    background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
-    height: 100vh; /* Div yüksekliği, ekranın tamamını kaplar */
-    width: 100%; /* Div genişliği, ekranın tamamını kaplar */
-}
+
 
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
@@ -65,18 +58,22 @@ body{
     border: black ,solid ,2px;;
 }
 
-
+#img-main{
+    z-index: 2;
+}
 
 .display-item-start{
         right:-15px ; 
         width: 30px;
         height: auto;
+
 }
 .display-item-bottom{
     left: -15px ; 
     width: 30px;
     height: auto;
     align-self: self-end;
+    
 }
 @media (min-width:576px) {
     
